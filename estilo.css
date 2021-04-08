@@ -1,0 +1,38 @@
+body:{
+    font-family: "Helvertica", "Arial";
+	background-color: #FFFFFF;
+}
+nav ul li
+{
+	opacity: 0.6;
+	
+	display: inline-block;
+	padding: 20px;
+	background-color: #8DC729;
+	cursor: pointer;
+	margin-right: 25px;
+	transition:all 0.5s linear;
+}
+
+nav ul li:hover
+{
+	background-color: #0DF8A8;
+	color: #FFFFFF;
+    border-radius: 5px;  
+}
+#contenedor
+{
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.normal{
+	opacity: 0.5;
+}
+.Nombre{
+	top: 2000px;
+	left: 2000px;
+	position: left;
+}
+
